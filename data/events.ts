@@ -5,7 +5,7 @@ export const MOCK_EVENTS: EventItem[] = [
     id: '1',
     title: 'Festival de Jazz no Teatro Amazonas',
     description: 'Uma noite inesquecível com os maiores nomes do Jazz amazonense e internacional no palco mais icônico do Brasil.',
-    date: '2024-06-15',
+    date: '2025-06-15',
     time: '20:00',
     category: Category.MUSIC,
     location: {
@@ -21,7 +21,7 @@ export const MOCK_EVENTS: EventItem[] = [
     id: '2',
     title: 'Final do Campeonato Amazonense',
     description: 'O clássico Rio-Nal decide o título estadual na arena da copa. Prepare sua torcida!',
-    date: '2024-06-16',
+    date: '2025-06-16',
     time: '16:00',
     category: Category.SPORTS,
     location: {
@@ -37,7 +37,7 @@ export const MOCK_EVENTS: EventItem[] = [
     id: '3',
     title: 'Feira do Paço: Edição Boi-Bumbá',
     description: 'Gastronomia, artesanato e muita toada na praça mais charmosa do centro histórico.',
-    date: '2024-06-16',
+    date: '2025-06-16',
     time: '17:00',
     category: Category.CULTURE,
     location: {
@@ -53,7 +53,7 @@ export const MOCK_EVENTS: EventItem[] = [
     id: '4',
     title: 'Passeio Culinário: Peixes Amazônicos',
     description: 'Degustação de tambaqui, pirarucu e matrinxã preparados pelos melhores chefs locais.',
-    date: '2024-06-17',
+    date: '2025-06-17',
     time: '12:00',
     category: Category.GASTRONOMY,
     location: {
@@ -69,7 +69,7 @@ export const MOCK_EVENTS: EventItem[] = [
     id: '5',
     title: 'Trilha Guiada no MUSA',
     description: 'Conheça a flora e fauna da Amazônia em uma caminhada guiada pelo Museu da Amazônia. Inclui subida na torre.',
-    date: '2024-06-18',
+    date: '2025-06-18',
     time: '08:00',
     category: Category.NATURE,
     location: {
@@ -85,7 +85,7 @@ export const MOCK_EVENTS: EventItem[] = [
     id: '6',
     title: 'Ensaio dos Bumbás',
     description: 'Aquecimento para o festival de Parintins com Caprichoso e Garantido.',
-    date: '2024-06-15',
+    date: '2025-06-15',
     time: '21:00',
     category: Category.CULTURE,
     location: {

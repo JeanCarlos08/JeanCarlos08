@@ -33,7 +33,7 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-stone-50 flex flex-col">
+    <div className="min-h-screen bg-slate-950 flex flex-col">
       <Navbar />
       
       <main className="flex-grow">
@@ -43,7 +43,7 @@ const App: React.FC = () => {
           
           {/* Categories */}
           <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
-            <div className="flex items-center gap-2 text-stone-800">
+            <div className="flex items-center gap-2 text-slate-200">
               <Filter size={20} className="text-amazon-primary" />
               <h3 className="font-display font-bold text-lg">Explorar Categorias</h3>
             </div>
@@ -55,8 +55,8 @@ const App: React.FC = () => {
                   onClick={() => setSelectedCategory(cat)}
                   className={`whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
                     selectedCategory === cat
-                      ? 'bg-amazon-primary text-white shadow-md shadow-amazon-primary/30'
-                      : 'bg-white text-stone-600 border border-stone-200 hover:border-amazon-primary hover:text-amazon-primary'
+                      ? 'bg-amazon-primary text-white shadow-md shadow-amazon-primary/30 border border-amazon-primary'
+                      : 'bg-slate-900 text-slate-400 border border-slate-800 hover:border-amazon-primary hover:text-amazon-primary'
                   }`}
                 >
                   {cat}
@@ -71,10 +71,10 @@ const App: React.FC = () => {
             {/* Left: Event List */}
             <div className="lg:col-span-7 xl:col-span-8 space-y-6">
               <div className="flex justify-between items-end">
-                 <h2 className="font-display font-bold text-2xl text-stone-900">
+                 <h2 className="font-display font-bold text-2xl text-white">
                    {selectedCategory === Category.ALL ? 'Próximos Eventos' : selectedCategory}
                  </h2>
-                 <span className="text-stone-400 text-sm font-medium">{filteredEvents.length} resultados</span>
+                 <span className="text-slate-500 text-sm font-medium">{filteredEvents.length} resultados</span>
               </div>
               <EventList 
                 events={filteredEvents} 
@@ -94,10 +94,10 @@ const App: React.FC = () => {
       {/* AI Assistant */}
       <AIGuide />
 
-      <footer className="bg-white border-t border-stone-200 mt-12 py-12">
+      <footer className="bg-slate-950 border-t border-slate-800 mt-12 py-12">
         <div className="max-w-7xl mx-auto px-4 text-center">
-           <p className="text-stone-400 text-sm">
-             &copy; 2024 Manaus Acontece. Desenvolvido por Jean Carlos.
+           <p className="text-slate-500 text-sm">
+             &copy; 2025 Manaus Acontece. Desenvolvido por Jean Carlos.
            </p>
         </div>
       </footer>
